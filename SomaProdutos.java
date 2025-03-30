@@ -24,7 +24,7 @@ public class SomaProdutos {
      
         else if (pagamento > totalCompra) {
             double troco = pagamento - totalCompra;
-            System.out.println("O troco é de: R$ " + troco);
+            System.out.println("O troco eh de: R$ " + troco);
         }
 
         else {
