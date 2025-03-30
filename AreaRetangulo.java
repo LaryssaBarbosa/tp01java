@@ -5,16 +5,16 @@ import java.util.Scanner;
       
         Scanner scanner = new Scanner(System.in);
 
-         System.out.print("Digite o valor da base do retângulo: ");
+         System.out.print("Digite o valor da base do retangulo: ");
         double base = scanner.nextInt();
 
-        System.out.print("Digite o valor da altura do retângulo: ");
+        System.out.print("Digite o valor da altura do retangulo: ");
         double altura = scanner.nextInt();
 
         double area = base * altura;
 
    
-        System.out.println("A área do retângulo é: " + area);
+        System.out.println("A área do retângulo eh: " + area);
 
         scanner.close();
     }
